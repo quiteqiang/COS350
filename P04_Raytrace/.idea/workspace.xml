@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d5b8d17-132d-448d-947b-f9e76a213477" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kQw6QFPaFLPNEeTlETbTQX821S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/test2.json" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d5b8d17-132d-448d-947b-f9e76a213477" name="Default Changelist" comment="" />
+      <created>1605645948328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605645948328</updated>
+      <workItem from="1605645949874" duration="18348000" />
+      <workItem from="1605742740223" duration="33987000" />
+      <workItem from="1605978417860" duration="18503000" />
+      <workItem from="1606097448389" duration="130000" />
+      <workItem from="1606152370621" duration="2419000" />
+      <workItem from="1606590946509" duration="3730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="99" y="23" width="1240" height="793" key="DiffContextDialog" timestamp="1605754495531">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="99" y="23" width="1240" height="793" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605754495531" />
+    <state x="99" y="23" width="1240" height="793" key="DiffContextDialog/0.23.1440.793@0.23.1440.793" timestamp="1605659931415" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1605646004186">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605646004186" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1606155478033">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1606155478033" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605996035242">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605996035242" />
+  </component>
+</project>

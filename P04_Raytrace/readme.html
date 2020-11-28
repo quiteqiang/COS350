@@ -1,0 +1,206 @@
+<meta charset="utf-8" lang="en">  <!-- this line allows UTF-8 characters in the .html file -->
+
+                    **P04_Raytrace**
+
+
+<!--
+
+General
+========
+
+For each of your team's implementations, explain the following (where appropriate and applicable):
+
+- details on calling conventions, input and output data formats, limitations, bugs, and special features.
+- negative aspects of your program (limitations, known bugs)
+- positive aspects (extensions, special features)
+- describe your choice of modularization (abstractions), data structures, and algorithms
+- explain anything you did that is likely to be different from what other students may have done
+- justify any design decisions for which the rationale isn't immediately clear
+
+Feel free to modify the structure of this `readme.html` file to fit the current assignment and to fit how you wish to present your findings.
+
+
+!!! note: Math Typesetting
+    Surround your math with double dollar signs to have [MathJax](https://www.mathjax.org/) typeset it beautifully.
+    To add a tilde in math mode (using dollar signs), use the `\sim` command.
+    If an exponent has more than one character, you must surround it with curly braces.
+    In the example below, the exponent for $T$ must use curly braces, but they aren't required for $N$.
+
+    $$ \sim T^{1.2} N^2 $$
+
+    Note: Typesetting like this is optional; feel free to use plain text if you'd like.
+
+
+Submission
+-----------
+
+Use any zip utility to create a zip file containing all your code, this `readme.html` document, and any additional files of evidence (ex: generated images, screenshots).
+Be sure to include all of the files, so that we can reproduce all of your images by running the ray tracer.
+
+-->
+
+
+
+Author
+=============
+
+
+<!-- fill out the following table with your information -->
+<!-- Note: wrapping table in div.noheader will hide the table's header -->
+<!-- Note: wrapping table in div.firstcol will style the first column different from other columns -->
+<div class="noheader firstcol">
+                  |             
+------------------|-------------
+name              | Qiang Wang
+computer + OS     | <!-- ... -->
+time to complete  | <!-- ... -->
+partner           | Jared Souther
+additional help   | Dr. Denning
+</div>
+
+
+
+
+
+
+Example Section
+===================
+
+<!--
+I have added example stuff below.
+Replace it with meaningful content.
+-->
+
+Reference Images
+---------------------
+
+
+![A simple sphere](references/P02_01_sphere_ka.png width="200px")
+
+![A room made of spheres](references/P02_02_sphere_room.png width="200px")
+
+
+Known bugs / limitations
+-------------------------
+
+<!--
+What bugs or limitations were troublesome?
+What bugs or limitations still remain?
+Are these bugs or limitations a problem in your implementation, algorithm, or something else?
+How do you know that you did not miss a bug?
+What additional tests did you run to ensure that your implementations are correct?
+-->
+
+<!-- ... -->
+
+
+
+Reflection
+===========
+
+<!--
+Describe whatever help (if any) that you received.
+Don't include readings, lectures, but do include any help from people (including course staff, lab TAs, classmates, and friends) and attribute them by name.
+How did you discuss the problem with others? (ex: white-board algorithms, looking over code for bugs, looking at print out results, etc.)
+-->
+
+<!-- ... -->
+
+
+
+<!--
+Since this is an individual assignment, if you worked with a partner, assert below that the work you are turning in is your own work, and that you only did "whiteboard" work as a group.
+Give one sentence explaining what each of you contributed.
+If you used the code from the lab challenge, explain what is shared between you and your lab partner.
+-->
+So far, I have worked on "Texture Mapping" feature. The program texture mapping one image on the sphere. My goal is to
+make a sun galaxy somehow in the animation.
+<!-- ... -->
+
+
+
+<!--
+Describe any serious problems you encountered.
+How much time did you spend writing new code, debugging code, thinking about the algorithms, discussing with someone else, running tests, writing comments and documentation, etc.?
+List any other comments here.
+Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
+-->
+
+<!-- ... -->
+
+
+
+
+Team Evaluation
+================
+
+<!--
+Rank all team members, including yourself!
+There should be a first place member; there should be a last place member.
+No ties.
+-->
+
+1. <!-- first place member -->
+2. <!-- second place member -->
+3. <!-- third place member -->
+
+
+<!--
+Provide any details you would like to state that helps describe why you gave the ranking order above.
+You may state something like, "Everyone really did contribute equally, and I ranked everyone as above because you made me do so."
+Your evaluations will not be shared with your team members.
+-->
+
+
+
+
+
+
+
+
+<!--   Feel free to modify the following to fit a theme of your choosing   -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> <!-- a sans-serif font -->
+<style>  /* A TAYLOR-INSPIRED THEME */
+    body {font-family:'Open Sans',sans-serif;}
+    .md a:link, .md a:visited {color:hsl(252,23.0%,44.3%); font-family:'Open Sans',sans-serif;}
+    .md table.table th {background-color:hsl(252,23.0%,44.3%);}
+    .md .noheader th {display:none;}
+    .md .firstcol td:first-child {white-space:pre;color:white;vertical-align:top;font-weight:bold;border-color:black;background:hsl(252,23.0%,54.3%);}
+    .md .firstcol tr:nth-child(even) td:first-child {background:hsl(252,23.0%,44.3%);}
+</style>
+
+
+<!-- ****************************** -->
+<!--    Leave the content below     -->
+<!-- ****************************** -->
+
+<!-- The script and style below are added for clarity and to workaround a bug -->
+<script>
+    // this is a hack to workaround a bug in Markdeep+Mathjax, where
+    // `&#36;`` is automatically converted to `\(`` and `\)`` too soon.
+    // the following code will replace the innerHTML of all elements
+    // with class "dollar" with a dollar sign.
+    setTimeout(function() {
+        var dollars = document.getElementsByClassName('dollar');
+        for(var i = 0; i < dollars.length; i++) {
+            dollars[i].innerHTML = '&#' + '36;'; // split to prevent conversion to $
+        }
+    }, 1000);
+</script>
+<style>
+    /* adding some styling to <code> tags (but not <pre><code> coding blocks!) */
+    :not(pre) > code {
+        background-color: rgba(0,0,0,0.05);
+        outline: 1px solid rgba(0,0,0,0.15);
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+    }
+    /* fixes table of contents of medium-length document from looking weird if admonitions are behind */
+    .md div.mediumTOC { background: white; }
+    .md div.admonition { position: initial !important; }
+</style>
+
+<!--   Leave the following Markdeep formatting code, as this will format your text above to look nice in a wed browser   -->
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible");</script>
