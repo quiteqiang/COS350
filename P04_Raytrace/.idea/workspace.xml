@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -9,7 +27,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5b8d17-132d-448d-947b-f9e76a213477" name="Default Changelist" comment="" />
+    <list default="true" id="4d5b8d17-132d-448d-947b-f9e76a213477" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P04_Raytrace.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P04_Raytrace_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/P04_Raytrace_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/P04_01_scene.json" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/P04_01_scene.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/P04_01_scene.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/P04_01_scene.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/P04_01_scene.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test/P04_01_scene.ppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/1.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/2.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/3.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/4.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/5.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/6.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/7.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/8.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_img/9.ppm" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +64,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kQw6QFPaFLPNEeTlETbTQX821S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +89,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,11 +110,23 @@
       <workItem from="1606097448389" duration="130000" />
       <workItem from="1606152370621" duration="2419000" />
       <workItem from="1606590946509" duration="3730000" />
+      <workItem from="1606595850585" duration="24401000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="99" y="23" width="1240" height="793" key="DiffContextDialog" timestamp="1605754495531">
@@ -77,6 +138,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605646004186" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1606601733252">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1606601733252" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606608083965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1606608083965" />
+    <state x="339" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606797524243">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="339" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.793@0.23.1440.793" timestamp="1606797524243" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1606155478033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

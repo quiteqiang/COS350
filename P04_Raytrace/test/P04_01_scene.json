@@ -65,7 +65,7 @@
         20.0,
         20.0
       ],
-      "size": 0.009999999776482582
+      "size": 1
     }
   ],
   "meshes": [
@@ -166,6 +166,16 @@
   ],
   "surfaces": [
     { "size": 1,
-      "material": { "kd": [0,1,0], "ks": [0,0,0], "n": 150, "uv_mapping": "source_img/mars.ppm"}}
+      "frame": { "o": [-3, 0 , 2.4] },
+      "material": { "kd": [0,1,0], "ks": [0,0,0], "n": 150, "uv_mapping": "source_img/color_star.ppm"}},
+    {
+      "size": 0.75,
+      "frame": { "o": [2.0, 0 , 0.85] },
+      "material": { "kd": [0.7,1,0.7], "ks": [0.7,0.7,0.7], "n": 100, "uv_mapping": "source_img/color_star.ppm"}},
+    {
+      "size": 0.75,
+      "frame": { "o": [0, 0 , 0.85] },
+      "material": { "kd": [0.7,1,0.7], "ks": [0.7,0.7,0.7], "n": 140, "uv_mapping": "source_img/color_star.ppm"}
+    }
   ]
 }

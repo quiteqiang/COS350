@@ -173,7 +173,7 @@ RGBColor irradiance(Scene scene, Ray ray, int depth, Image source_img) {
     // print(scene.meshes[0].verts[0]);
     Point     p  = intersection.o;
     Direction v  = -ray.d;
-    RGBColor  kd = intersection.material.kd;
+    RGBColor  kd = intersection.material.kd;        //color after texture mapping
     RGBColor  ks = intersection.material.ks;
     double    n  = intersection.material.n;
     RGBColor  kr = intersection.material.kr;
@@ -208,6 +208,7 @@ RGBColor irradiance(Scene scene, Ray ray, int depth, Image source_img) {
                 numls;
         }
     }
+
 
     if(!kr.isBlack) {
         Direction r = v.reflected(intersection.frame.z);
@@ -281,7 +282,7 @@ void main() {
     for(String scenePath in scenePaths) {
         // Determine where to write the rendered image.
         // NOTE: the following line is not safe, but it is fine for this project.
-        var ppmPath = scenePath.replaceAll('.json', '.ppm').replaceAll('scenes/', 'images/');
+        var ppmPath = scenePath.replaceAll('.json', '.ppm').replaceAll('test/', 'video_img/');
 
         print('Scene: $scenePath');
         print('    output image: $ppmPath');
@@ -290,19 +291,8 @@ void main() {
         var scene = Scene.fromJson(loader);         // parse json file as Scene
 
         //calculate the triangles
-        // print();
-        // var i_path = scene.surfaces[0].material.uv_mapping;
-        // var source_img = Image.fromFile(i_path);
-        var source_img = Image.fromFile("source_img/moon.ppm");
+        var source_img = Image.fromFile("source_img/color_star.ppm");
 
-        // print(source_img.getPixel(65, 130));
-
-        // print(scene.meshes[0].norms[0]);
-        // print(scene.meshes[0].faces[0]);
-        // calTriangles(scene.meshes[0].uv_mapping, scene.meshes[0].verts, scene.meshes[0].norms, scene.meshes[0].faces);
-        // var uv_mapping_img = scene.surfaces[0].uv_mapping;
-
-        // print(scene.meshes[0].verts[0]);
         // override scene's resolution
         if(overrideResolution != null) {
             print('    overriding resolution: $overrideResolution');

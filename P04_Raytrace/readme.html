@@ -52,10 +52,10 @@ Author
                   |             
 ------------------|-------------
 name              | Qiang Wang
-computer + OS     | <!-- ... -->
-time to complete  | <!-- ... -->
+computer + OS     | Apple
+time to complete  | 20 hours
 partner           | Jared Souther
-additional help   | Dr. Denning
+additional help   | Dr. Denning, Wikipedia
 </div>
 
 
@@ -63,26 +63,60 @@ additional help   | Dr. Denning
 
 
 
-Example Section
+Implementation walk-through
 ===================
+For my section, I implemented texture mapping. The implementation is in the function <b>get_sphere_uv</b> from file
+<b>P04_Raytrace_test.dart (line 28 - 56)</b>. Texture mapping means wrap around a 2-D image/surface to a 3-D object. I
+chose sphere as my implementation object. Here is the screen shoot of the function:
 
+![get_sphere_uv](source_img/code.png width="400px")
+
+What the function does is to transfer a 2-D location in the image to a 3-D location in the sphere. Here is the link to
+the wikipedia page I used when I program the math part of this project.
+<a href="https://en.wikipedia.org/wiki/Spherical_coordinate_system#"><b>Wikipedia link</b></a>. There are 2 important Roman
+letter variable I used: Phi and Theta.
+The polar angle <b>θ (theta)</b> (angle of rotation from the initial meridian plane)
+and azimuthal angle <b> φ (phi) </b>.(angle with respect to polar axis). With these 2 angles, I can calculate the 2-D locations with
+a given 3-D location. Then I can find the corresponding point on the 2-d image. then return the color at that point to the point we
+are going to draw on the sphere.
+
+Here is a screen shot of the calculation from wikipedia(2D location to 3D location):
+
+![From Wikipedia: https://en.wikipedia.org/wiki/Spherical_coordinate_system#](source_img/code1.png width="200px")
+
+To have the inverse calculation: calculate 3D location to 2D location: we need to use <b>atan</b> and <b>asin</b>.
+
+With a given image, the program is able to map the image on the 3D sphere. Here is one set of example:
+
+![Mars sphere without texture mapping](source_img/mars.png width="200px")
+
+![Mars image used](source_img/mars_gl.png width="400px")
 <!--
 I have added example stuff below.
 Replace it with meaningful content.
 -->
 
-Reference Images
+More Sample Images
 ---------------------
 
 
-![A simple sphere](references/P02_01_sphere_ka.png width="200px")
+![Stars with soft shadow](source_img/1.png width="200px")
 
-![A room made of spheres](references/P02_02_sphere_room.png width="200px")
+![Moon with soft shadow](source_img/2.png width="200px")
+
+<b>Youtube Link For the Video:</b> https://www.youtube.com/watch?v=aAbCgbt6bOo&ab_channel=wangqiang
+
+This video can also be found found under the folder <b>video_img</b>
 
 
-Known bugs / limitations
+Known bugs / limitations / usefulness
 -------------------------
+Even the image can be mapped on the sphere, the sphere surface doesn't look like well handled. For example, the bottom
+and top surface of the sphere are stretched. There should be other complex algorithm can map the image around the sphere
+better.
 
+Usefulness: Since a single image can be mapped on a sphere, it will be simple to map other images on the sphere as well.
+Therefore, it is possible to make a simple galaxy which includes numbers of stars.
 <!--
 What bugs or limitations were troublesome?
 What bugs or limitations still remain?
@@ -114,7 +148,7 @@ Give one sentence explaining what each of you contributed.
 If you used the code from the lab challenge, explain what is shared between you and your lab partner.
 -->
 So far, I have worked on "Texture Mapping" feature. The program texture mapping one image on the sphere. My goal is to
-make a sun galaxy somehow in the animation.
+make a animation which contains multiple stars.
 <!-- ... -->
 
 
@@ -140,9 +174,8 @@ There should be a first place member; there should be a last place member.
 No ties.
 -->
 
-1. <!-- first place member -->
-2. <!-- second place member -->
-3. <!-- third place member -->
+1. Qiang Wang
+2. Jared Souther
 
 
 <!--
@@ -150,7 +183,10 @@ Provide any details you would like to state that helps describe why you gave the
 You may state something like, "Everyone really did contribute equally, and I ranked everyone as above because you made me do so."
 Your evaluations will not be shared with your team members.
 -->
-
+My teammate worked on the <b> Soft shadow feature</b>. I worked on the <b> Texture Mapping feature. </b> and also figure out
+the how to generate the animation images, and the video. The reason I gave that order because the hours I spend on this project is way too long.
+In general, my teammate has done excellent job for implementing the <b>soft shadow</b> feature. His code works perfect when I integrate our code
+together.
 
 
 
